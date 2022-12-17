@@ -7,10 +7,10 @@ const FtSection = () => {
   //   console.log(lan);
   return (
     <>
-      <div className="w-full bg-black">
-        <div className="con mx-auto pt-10  ">
-          <div className="flex flex-row items-start">
-            <div className="w-[17%] px-[13.2px] flex flex-col">
+      <div className="w-full bg-black ">
+        <div className="con mx-auto pt-10 overflow-hidden  ">
+          <div className="flex flex-row lg:flex-nowrap flex-wrap items-start justify-between">
+            <div className="lg:w-[17%] sm:w-[34%] w-[50%] lg:py-0 py-5 px-[13.2px] flex flex-col">
               <h1 className="uppercase font-semibold text-white text-[17.6px] pb-1">
                 Useful link
               </h1>
@@ -36,7 +36,7 @@ const FtSection = () => {
                 Devilary info
               </p>
             </div>
-            <div className="w-[17%] px-[13.2px] flex flex-col">
+            <div className="lg:w-[17%] sm:w-[34%] w-[50%] lg:py-0 py-5 px-[13.2px] flex flex-col">
               <h1 className="uppercase font-semibold text-white text-[17.6px] pb-1">
                 Decors
               </h1>
@@ -62,7 +62,7 @@ const FtSection = () => {
                 Photo frames
               </p>
             </div>
-            <div className="w-[17%] px-[13.2px] flex flex-col">
+            <div className="lg:w-[17%] sm:w-[34%] w-[50%] lg:py-0 py-5 px-[13.2px] flex flex-col">
               <h1 className="uppercase font-semibold text-white text-[17.6px] pb-1">
                 Categories
               </h1>
@@ -79,7 +79,7 @@ const FtSection = () => {
                 Bedroom
               </p>
             </div>
-            <div className="w-[17%] px-[13.2px] flex flex-col">
+            <div className="lg:w-[17%] sm:w-[34%] w-[50%] lg:py-0 py-5 px-[13.2px] flex flex-col">
               <h1 className="uppercase font-semibold text-white text-[17.6px] pb-1">
                 Showroom
               </h1>
@@ -102,19 +102,19 @@ const FtSection = () => {
                 Sun: 8:00 - 21:00
               </p>
             </div>
-            <div className="w-[32%] px-[13.2px] flex flex-col bg-black text-center">
+            <div className="lg:w-[32%] w-[80%] mx-auto lg:mx-0 px-[13.2px] flex flex-col bg-black text-center">
               <h1 className="uppercase font-semibold text-white text-[17.6px] pb-5">
                 Download our app
               </h1>
               <div className="c-flex justify-center">
-                <div className="w-[40%] bg-[#191919] hover:bg-[#333333] cursor-pointer duration-500 px-6 py-[10px] rounded-2xl mr-3">
+                <div className="sm:w-[40%] w-[50%] bg-[#191919] hover:bg-[#333333] cursor-pointer duration-500 px-6 py-[10px] rounded-2xl mr-3">
                   <img
                     src="https://around.createx.studio/assets/img/market/appstore-light.svg"
                     alt=""
                     className="w-full"
                   />
                 </div>
-                <div className="w-[40%] bg-[#191919] hover:bg-[#333333] cursor-pointer duration-500 px-6 py-[10px] rounded-2xl">
+                <div className="sm:w-[40%] w-[50%] bg-[#191919] hover:bg-[#333333] cursor-pointer duration-500 px-6 py-[10px] rounded-2xl">
                   <img
                     src="https://around.createx.studio/assets/img/market/googleplay-light.svg"
                     alt=""
@@ -124,8 +124,8 @@ const FtSection = () => {
               </div>
             </div>
           </div>
-          <div className="c-flex justify-between pt-10 pb-7 text-white relative">
-            <div className="c-flex">
+          <div className="c-flex flex-wrap-reverse justify-center sm:justify-between pt-10 pb-7 text-white relative">
+            <div className="c-flex py-4 sm:py-0">
               <p className="text-[15.4px] text-gray-500 font-medium hover:text-gray-300 cursor-pointer duration-500 px-4">
                 Support
               </p>
@@ -138,7 +138,7 @@ const FtSection = () => {
             </div>
             <div
               onClick={() => setLan((pre) => !pre)}
-              className="cursor-pointer c-flex text-[15px] font-semibold py-3 sm:py-4 px-5 sm:px-7 rounded-2xl shadow-lg duration-500 border border-gray-400 hover:bg-[#191919]"
+              className="cursor-pointer text-center c-flex text-[15px] font-semibold py-3 sm:py-4 px-5 sm:px-7 rounded-2xl shadow-lg duration-500 border border-gray-400 hover:bg-[#191919]"
             >
               <US title="United States" className="w-[22.5px] h-[15px]" />
               <span className="mx-3"> Eng/USD</span>
@@ -146,7 +146,7 @@ const FtSection = () => {
             </div>
 
             <div
-              className={`border border-gray-400 p-5 rounded-xl absolute top-[-85%] right-[1%] scale-y-0 origin-bottom duration-500 bg-[#191919] ${
+              className={`border border-gray-400 p-5 rounded-xl absolute top-[-56%] sm:top-[-85%] right-[28%] sm:right-[1%] scale-y-0 origin-bottom duration-500 bg-[#191919] ${
                 lan && "scale-y-100"
               }`}
             >

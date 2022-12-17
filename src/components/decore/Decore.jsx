@@ -59,7 +59,7 @@ const Decore = () => {
             >
               <SwiperSlide>
                 <div className="">
-                  <h1 className=" uppercase lg:text-[55px] text-[40px] pb-[30px] lg:pb-[60px] font-semibold leading-[50px] lg:leading-[70px] text-white dark:text-gray-400">
+                  <h1 className=" uppercase lg:text-[55px] sm:text-[40px] text-[30px] pb-[30px] lg:pb-[60px] font-semibold leading-[45px] sm:leading-[50px] lg:leading-[70px] text-white dark:text-gray-400">
                     Meet the guests with a stunning set for a dinner party
                   </h1>
                   <button className="text-[15px] text-white dark:text-gray-400 font-semibold border border-white dark:border-gray-400 py-3 sm:py-4 px-5 sm:px-7 rounded-2xl shadow-lg duration-500 origin-top hover:bg-white dark:hover:bg-gray-400 hover:text-gray-700 dark:hover:text-gray-700">
@@ -69,7 +69,7 @@ const Decore = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="">
-                  <h1 className=" uppercase text-[40px] lg:text-[55px] pb-[30px] lg:pb-[60px] font-semibold leading-[50px] lg:leading-[70px] text-white dark:text-gray-400">
+                  <h1 className=" uppercase text-[30px] sm:text-[40px] lg:text-[55px] pb-[30px] lg:pb-[60px] font-semibold leading-[45px] sm:leading-[50px] lg:leading-[70px] text-white dark:text-gray-400">
                     Decor for the living room or bedrooms in wood style{" "}
                   </h1>
                   <button className="text-[15px] text-white dark:text-gray-400 font-semibold border border-white dark:border-gray-400 py-3 sm:py-4 px-5 sm:px-7 rounded-2xl shadow-lg duration-500 origin-top hover:bg-white dark:hover:bg-gray-400 hover:text-gray-700 dark:hover:text-gray-700">

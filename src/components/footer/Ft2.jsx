@@ -12,7 +12,7 @@ const Ft2 = () => {
       <div className="bg-black w-full">
         <div className="con mx-auto pb-10 ">
           <hr className="pb-7" />
-          <div className="c-flex justify-between">
+          <div className="c-flex flex-wrap  justify-center sm:justify-between">
             <div className=" c-flex">
               <NavLink to={"/"} className="c-flex pr-5">
                 <svg
@@ -45,7 +45,7 @@ const Ft2 = () => {
                 <FaPinterestP />
               </div>
             </div>
-            <div className="w-[200px]">
+            <div className="w-[200px] py-5 sm:py-0">
               <img
                 src="https://around.createx.studio/assets/img/shop/footer-cards.png"
                 alt=""
